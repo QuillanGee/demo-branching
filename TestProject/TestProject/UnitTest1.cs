@@ -13,4 +13,10 @@ public class UnitTest1
     {
         Assert.False(false);
     }
+    
+    [Fact]
+    public void Test3()
+    {
+        Assert.True(!false);
+    }
 }
